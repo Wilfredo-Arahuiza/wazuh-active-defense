@@ -25,7 +25,7 @@ The Wazuh Agent collected authentication events from the victim's `/var/log/auth
 When processing the high-frequency event stream, the SIEM rules engine triggered the following rule IDs:
 *   **Rule ID 5503 / 5760:** Identification of individual SSH authentication failures and PAM discrepancies.
 *   **Rule ID 40111 / 2502 (High Severity - Level 10):** Multiple authentication failures correlation. The SIEM consolidated the separate events and officially declared an **Active Brute Force Attack**.
-![BLoqueo de Hydra por UFW](images/Wazuh.png)
+![BLoqueo de Hydra por UFW](Images/wazuh.png)
 ### Phase 3: Active Response Implementation (Automated Mitigation)
 To transition the SIEM from a passive monitor to a proactive mitigation asset, the centralized `ossec.conf` configuration file on the Manager was modified. Logical directives were defined to orchestrate a dynamic network ban on the affected agent's local firewall when a brute-force pattern is matched:
 
