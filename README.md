@@ -63,3 +63,4 @@ Following the deployment of defensive policies, hostile activity from Kali Linux
 *   Threat simulation using offensive security auditing tools (`Hydra`).
 *   Defensive hardening via firewall automation scripts (`ufw` / `iptables`).
 # wazuh-active-defense
+# wazuh-active-defense
