@@ -62,3 +62,4 @@ Following the deployment of defensive policies, hostile activity from Kali Linux
 *   Technical analysis, parsing, and log ingestion of Linux system events (`auth.log`).
 *   Threat simulation using offensive security auditing tools (`Hydra`).
 *   Defensive hardening via firewall automation scripts (`ufw` / `iptables`).
+# wazuh-active-defense
